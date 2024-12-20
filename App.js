@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+const Heading =() => {
+  return   <h1> " i am a inner jsx </h1>
+}
 
-const Heading = () => {
- return  <h1>hi20</h1>
-} ;
-
-const root= ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Heading />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Heading/>)
