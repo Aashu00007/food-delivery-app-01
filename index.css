@@ -1,0 +1,68 @@
+.header{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+.nav-items{
+    border: 2px solid red;
+
+}
+.nav-items>ul{
+    border: 2px solid green;
+    display: flex;
+    padding: 0px 20px;
+}
+.nav-items>ul>li{
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+
+}
+
+.body{
+    border: 2px solid black;
+}
+.res-container{
+    border: 2px solid red;
+    
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+        gap: 16px; /* Adds space between the cards */
+    
+    
+}
+.filter{
+    border: 2px solid green;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+.res-card{
+    border: 2px solid yellow;
+    width: 180px;
+    
+    padding: 5px;
+    background-color: rgb(202, 198, 198);
+    margin: 5px;
+    
+}
+.res-card:hover {
+    cursor: pointer;
+    border: 2px solid red;
+}
+.res-logo{
+     height: 150px;
+     width: 100%;    
+}
+.cusines{
+    font-size: 12px;
+}
+
+.filter-btn{
+    cursor: pointer;
+}
